@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+        
+        <link rel="stylesheet" href="style.css">
+
+        <title>CYBERPONG</title>
+
+        <link rel="icon" type="image/x-icon" href="Imatges/580440734.png">
+    </head>
+   
+    <body>
+       <header>
+            Logos, menú de navegació, barra de cerca, idioma
+
+            
+       </header>
+
+       <main>
+        <label for="radi_pilota">Radi pilota:</label>
+        <input type="range" name= "radi_pilota" id = "radi_pilota" value = "20" min="15" max="75"> 
+
+           <div id="canvasContainer"> </div>
+           
+           <div id="radi_pilota"></div>
+        
+            <h1>CYBERPONG</h1>
+           <section>
+               <h2>Joc retrofuturista</h2>
+               <img src="Imatges/PongAntiguo.jpg" alt="PongAntiguo" width ="50%">
+
+                <arcticle>
+                    <h3>Creador</h3>
+                    <p>Marcos Socías Alberto</p>
+                    <img src="Imatges/580440734.png" alt="Mario" width = "50%"> 
+                </arcticle>
+                <article>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit non nisi odit excepturi quibusdam! Tempora cum, asperiores cupiditate expedita animi illum repudiandae harum maxime neque quos nihil iste veritatis ab.</p>
+                </article>  
+                <article>
+                    <ul type="square">
+                        <li>
+                            <a href="http://www.iesmanacor.cat" target = "_blank"> Link 1</a>
+                        </li>
+
+                        <li>
+                            <a href="segona_pagina.html">Segona pàgina</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </article> 
+           </section>
+           <section id = "eclipse">
+
+           </section>
+       </main>
+
+       <footer>
+            Peu de pàgina amb informació sobre copyright, creadors de la pàgina, política de cookies, contacte...
+       </footer>
+       <script src="./pseudoPong/cercle.js"></script>
+       <script src="./pseudoPong/player.js"></script>
+       <script src="./pseudoPong/sketch.js"></script>
+    </body>
+</html>
